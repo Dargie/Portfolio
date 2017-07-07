@@ -1,0 +1,178 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ html {
+      height: 100%;
+
+    }
+ body {
+ padding: 0;
+text-align: center;
+position: relative;
+margin: 0;
+height: 100%;
+-webkit-font-smoothing: antialiased;
+    }
+
+img{
+	background-repeat: repeat-x;
+	margin: 0 auto; 
+    overflow: hidden
+    background-size: cover;
+   
+
+}
+li{
+	border: none !important;
+}
+ul{
+	border: none !important;
+}
+
+.japon {
+    	height: 100% !important;
+    	margin: 0 auto; 
+    	overflow: hidden;
+    	background-size: cover;
+    	background-image: url(img/Pixel6.png);
+    	background-repeat: repeat-x;
+    	    }
+
+.btn-floating{
+	text-align: center;
+	
+}
+.presentation{
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+#presentation{
+  display: inline-block;
+  border: 5px groove orange;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#Haruhi{/*Presentation bref*/
+    margin: 0 auto; 
+	text-align: center;
+}
+
+#Captain{/*Main*/
+ 	
+  position: absolute; /* postulat de départ */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%);
+
+}
+#Yui{/*Nbr xp / projet*/
+	text-align: center;
+}
+#Yukino{/*adaption*/
+    margin: 0 auto; 
+	text-align: center;
+}
+#title_Yukino{
+
+background-color: rgba(255,255,255, .9);
+box-shadow: 5px 5px 5px 5px;
+opacity: 1;
+  padding:2em; 
+  position: absolute; /* postulat de départ */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%);
+
+}
+
+#Hachiman{/*portfolio*/
+    margin: 0 auto; 
+	text-align: center;
+}
+#title_Hachiman{
+	background-color: rgba(255,255,255, .9);
+box-shadow: 5px 5px 5px 5px;
+opacity: 1;
+  padding:2em; 
+  position: absolute; /* postulat de départ */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%);
+}
+#Hakuya{/*soif d'apprentissage*/
+    margin: 0 auto; 
+	text-align: center;
+}
+#Ookami{/*Outils*/
+    margin: 0 auto; 
+	text-align: center;
+	background-position: cover;
+
+}
+#Tenshi{/*Mes valeurs*/
+    margin: 0 auto; 
+	text-align: center;
+}
+#Watanabe{ /*ListPortfolio*/
+    margin: 0 auto; 
+	text-align: center;
+
+}
+#Draven{ /*Contact*/
+    margin: 0 auto; 
+	text-align: center;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+	padding: 12px;
+
+}
+.fatal {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffc107;
+}
+
+.fatal:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.center{
+	top: 50% !important;
+  left: 50% !important;
+}
