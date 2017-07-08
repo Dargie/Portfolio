@@ -80,9 +80,8 @@ ul{
 }
 #title_Yukino{
 
-background-color: rgba(255,255,255, .9);
-box-shadow: 5px 5px 5px 5px;
-opacity: 1;
+  background-color: rgba(255,255,255, .9);
+  box-shadow: 0px 2px 1px 0px;
   padding:2em; 
   position: absolute; /* postulat de départ */
   top: 50%; left: 50%; /* à 50%/50% du parent référent */
@@ -96,8 +95,7 @@ opacity: 1;
 }
 #title_Hachiman{
 	background-color: rgba(255,255,255, .9);
-box-shadow: 5px 5px 5px 5px;
-opacity: 1;
+  box-shadow: 0px 2px 1px 0px;
   padding:2em; 
   position: absolute; /* postulat de départ */
   top: 50%; left: 50%; /* à 50%/50% du parent référent */
@@ -175,4 +173,11 @@ opacity: 1;
 .center{
 	top: 50% !important;
   left: 50% !important;
+}
+.text-change{
+  color : white;
+  font-size:25px; 
+}
+.text-nochange{
+  font-size:25px; 
 }
