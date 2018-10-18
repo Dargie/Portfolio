@@ -1,3 +1,4 @@
+
 /* Custom Stylesheet */
 /**
  * Use this file to override Materialize files so you can update
@@ -43,8 +44,7 @@ ul{
     	    }
 
 .btn-floating{
-	text-align: center;
-	
+	text-align: center;	
 }
 .presentation{
   width: inherit;
